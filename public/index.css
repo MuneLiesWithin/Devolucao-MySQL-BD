@@ -1,0 +1,30 @@
+fieldset {
+    border: solid black;
+}
+
+#left {
+    width: 400px;
+    height: 145px;
+    left: 30%;
+    margin: -130px 0 0 -210px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background-color: lightgray;
+}
+
+#right {
+    width: 400px;
+    height: 400px;
+    right: 20%;
+    margin: -130px 0 0 -210px;
+    padding: 10px;
+    position: absolute;
+    overflow-y: auto;
+    top: 32%;
+    background-color: lightgray;
+}
+
+b {
+    font-size: 20px;
+}

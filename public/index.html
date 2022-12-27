@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Devoluções - Biblioteca Alexandria</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="devolucoes.js"></script>
+</head>
+<body background="fundo.jpg">
+
+    <fieldset id="left">
+        Nome:<br/>
+        <input type="text" id="nome"/>
+        <br />
+        <br />
+        Livro:<br />
+        <input type="text" id="livro"/>
+        <br />
+        <br />
+        <button onclick="registrar()">Registrar</button>
+        <button onclick="carregarDados()">Carregar</button>
+        <button id="excluir" onclick="excluir()" class="disabled">Excluir</button>
+    </fieldset>
+                    
+    <fieldset id="right">
+        <b>Janela de Eventos</b>
+        <ol id="devolucoes"></ol>
+    </fieldset>
+
+</body>
+</html>
