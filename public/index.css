@@ -1,6 +1,22 @@
 fieldset {
-    border: solid black;
+    border: 2px solid rgb(50, 50, 50);
+    background-color: rgba(211, 211, 211, 0.8);
+    border-radius: 10px;
+    font-style: oblique;
 }
+
+button { 
+    margin: 0px 10px 0px 0px;
+}
+
+button:hover{
+    box-shadow: 1px 1px 15px rgb(143, 65, 65);
+}
+
+button:active{
+    color:rgb(143, 65, 65);
+}
+
 #left {
     width: 400px;
     height: 145px;
@@ -9,8 +25,8 @@ fieldset {
     padding: 10px;
     position: absolute;
     top: 50%;
-    background-color: lightgray;
 }
+
 #right {
     width: 400px;
     height: 400px;
@@ -20,14 +36,16 @@ fieldset {
     position: absolute;
     overflow-y: auto;
     top: 32%;
-    background-color: lightgray;
 }
+
 b {
     font-size: 20px;
 }
+
 li:hover {
     color: blue;
 }
+
 li:active {
     color: red;
 }
