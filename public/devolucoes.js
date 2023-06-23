@@ -28,7 +28,7 @@ function recuperarDados(obj){
             selecionar(element);
         }
         ul.innerHTML =
-            '<li>' + element.nome + ' ' + 'devolveu' + ' ' + element.livro + '</li>'
+            '<li>' + '<a href="#">' + element.nome + ' ' + 'devolveu' + ' ' + element.livro + '</a>' + '</li>'
         tbl.appendChild(ul);
     }
 }
