@@ -1,5 +1,21 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(180deg, 
+                                    rgba(0, 0, 0, 0.3) 0%, 
+                                    rgba(0, 0, 0, 0.8) 100%),
+                                    url(fundo.jpg);;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 fieldset {
-    border: 2px solid rgb(50, 50, 50);
+    border: 2px solid rgb(25, 25, 25);
     background-color: rgba(211, 211, 211, 0.8);
     border-radius: 10px;
     font-style: oblique;
@@ -10,7 +26,9 @@ button {
 }
 
 button:hover{
-    box-shadow: 1px 1px 15px rgb(143, 65, 65);
+    background-color: rgb(27, 26, 26);
+    color: white;
+    transition: background-color 0.5s, color 0.5;
 }
 
 button:active{
@@ -22,7 +40,7 @@ button:active{
     height: 145px;
     left: 30%;
     margin: -130px 0 0 -210px;
-    padding: 10px;
+    padding: 10px 10px 10px 15px;
     position: absolute;
     top: 50%;
 }
